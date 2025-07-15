@@ -202,22 +202,28 @@ section {
   padding-right: 10px;
 }
 
-.tabla-nutricion {
+.nutrition-table {
   border-collapse: collapse;
   font-family: sans-serif;
   font-size: 16px;
   width: auto;
 }
 
-.tabla-nutricion td {
-  margin-left: 20px;
+.nutrition-table td {
   font-size: 18px;
-  padding: 12px 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #ddd;
 }
 
-.valor {
+.nutrient {
+  padding-left: 35px;
+}
+
+.value {
   font-weight: bold;
   color: #7c3f2c;
-  text-align: left; /* alineado desde la primer letra */
+  padding-left: 160px;
+  text-align: left;
+  transform: translate(-90px, 0);
 }
