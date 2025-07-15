@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+/* FONTS */
+@font-face {
+  font-family: "Young Serif";
+  src: url("../fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+/* HEADERS and text*/
+body {
+  background: hsl(25, 100%, 98%);
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 36px;
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+h3 {
+  font-size: 20px;
+  color: hsl(332, 51%, 32%);
+}
+
+p {
+  font-size: 16.8px;
+  line-height: 24px;
+  color: hsl(30, 10%, 34%);
+}
+
+/* BODY */
+
+.banner {
+  background-image: url("../img/omelette-banner.jpeg");
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  padding: 40px 30px;
+  width: 100%;
+}
+
+/* INTRODUCTION SECTION */
+.introduction-section h1 {
+  line-height: 35px;
+}
+
+.introduction-section p {
+  padding: 25px 0;
+}
+
+.preparation-time-container {
+  padding: 20px 25px;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: hsl(0, 100%, 98%);
+}
+
+.preparation-time-container ul {
+  padding: 10px 25px;
+}
+
+.preparation-time-container ul li {
+  padding: 8px;
+  list-style: none;
+  color: hsl(30, 10%, 34%);
+}
+
+.preparation-time-container ul li::before {
+  width: 4px;
+  height: 4px;
+  background-color: hsl(332, 51%, 32%);
+  content: "";
+  position: absolute;
+  transform: translate(-25px, 9px);
+  border-radius: 50%;
+}
+
+.ingredients-container h2 {
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.ingredients-container ul {
+  list-style: none;
+  padding: 20px 45px 0;
+  color: hsl(30, 10%, 34%);
+}
+
+.ingredients-container ul li {
+  padding-bottom: 12px;
+}
+
+.ingredients-container ul li::before {
+  width: 4px;
+  height: 4px;
+  background-color: hsl(14, 45%, 36%);
+  content: "";
+  position: absolute;
+  transform: translate(-35px, 9px);
+  border-radius: 50%;
+}
