@@ -37,6 +37,7 @@ h1 {
 }
 
 h2 {
+  font-size: 30px;
   color: hsl(14, 45%, 36%);
 }
 
@@ -62,13 +63,14 @@ p {
 }
 
 section {
-  padding: 40px 30px;
+  padding: 0 30px;
   width: 100%;
 }
 
 /* INTRODUCTION SECTION */
 .introduction-section h1 {
   line-height: 35px;
+  padding-top: 40px;
 }
 
 .introduction-section p {
@@ -103,14 +105,15 @@ section {
 }
 
 .ingredients-container h2 {
-  font-size: 30px;
   padding-top: 30px;
 }
 
 .ingredients-container ul {
   list-style: none;
-  padding: 20px 45px 0;
+  padding: 20px 45px 25px;
   color: hsl(30, 10%, 34%);
+
+  border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
 .ingredients-container ul li {
@@ -125,4 +128,36 @@ section {
   position: absolute;
   transform: translate(-35px, 9px);
   border-radius: 50%;
+}
+
+/* INSTRUCTIONS SECTION */
+.instructions-section {
+  padding-top: 0;
+}
+
+.instructions-section h2 {
+  padding-top: 30px;
+}
+
+.container-columns {
+  display: flex;
+}
+
+.column-numbers li {
+  padding-bottom: 136px;
+  transform: translate(0, 2px);
+}
+
+.instructions-section ol {
+  list-style: none;
+  padding: 20px 0 25px 45px;
+  color: hsl(30, 10%, 34%);
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.column-instructions li {
+  padding-bottom: 12px;
+}
+
+.instructions-section ol li span {
 }
