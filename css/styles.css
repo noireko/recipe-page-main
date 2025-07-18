@@ -255,4 +255,9 @@ section {
   .container-banner {
     padding: 30px;
   }
+
+  .value {
+    padding-left: 32.7rem;
+    transform: translate(-280px, 0);
+  }
 }
